@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF44827F212CF7480085ADED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF44827E212CF7480085ADED /* AppDelegate.m */; };
+		FF448282212CF7480085ADED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF448281212CF7480085ADED /* ViewController.m */; };
+		FF448285212CF7480085ADED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF448283212CF7480085ADED /* Main.storyboard */; };
+		FF448287212CF7490085ADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF448286212CF7490085ADED /* Assets.xcassets */; };
+		FF44828A212CF7490085ADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF448288212CF7490085ADED /* LaunchScreen.storyboard */; };
+		FF44828D212CF7490085ADED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF44828C212CF7490085ADED /* main.m */; };
+		FF448297212CF74A0085ADED /* SNSURLConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF448296212CF74A0085ADED /* SNSURLConnectionTests.m */; };
+		FF4482A2212CF74A0085ADED /* SNSURLConnectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4482A1212CF74A0085ADED /* SNSURLConnectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF448293212CF7490085ADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF448272212CF7480085ADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF448279212CF7480085ADED;
+			remoteInfo = SNSURLConnection;
+		};
+		FF44829E212CF74A0085ADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF448272212CF7480085ADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF448279212CF7480085ADED;
+			remoteInfo = SNSURLConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF44827A212CF7480085ADED /* SNSURLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSURLConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF44827D212CF7480085ADED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF44827E212CF7480085ADED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF448280212CF7480085ADED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF448281212CF7480085ADED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF448284212CF7480085ADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF448286212CF7490085ADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF448289212CF7490085ADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF44828B212CF7490085ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF44828C212CF7490085ADED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF448292212CF7490085ADED /* SNSURLConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSURLConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF448296212CF74A0085ADED /* SNSURLConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNSURLConnectionTests.m; sourceTree = "<group>"; };
+		FF448298212CF74A0085ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF44829D212CF74A0085ADED /* SNSURLConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSURLConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4482A1212CF74A0085ADED /* SNSURLConnectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNSURLConnectionUITests.m; sourceTree = "<group>"; };
+		FF4482A3212CF74A0085ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF448277212CF7480085ADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF44828F212CF7490085ADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF44829A212CF74A0085ADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF448271212CF7480085ADED = {
+			isa = PBXGroup;
+			children = (
+				FF44827C212CF7480085ADED /* SNSURLConnection */,
+				FF448295212CF74A0085ADED /* SNSURLConnectionTests */,
+				FF4482A0212CF74A0085ADED /* SNSURLConnectionUITests */,
+				FF44827B212CF7480085ADED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF44827B212CF7480085ADED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF44827A212CF7480085ADED /* SNSURLConnection.app */,
+				FF448292212CF7490085ADED /* SNSURLConnectionTests.xctest */,
+				FF44829D212CF74A0085ADED /* SNSURLConnectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF44827C212CF7480085ADED /* SNSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				FF44827D212CF7480085ADED /* AppDelegate.h */,
+				FF44827E212CF7480085ADED /* AppDelegate.m */,
+				FF448280212CF7480085ADED /* ViewController.h */,
+				FF448281212CF7480085ADED /* ViewController.m */,
+				FF448283212CF7480085ADED /* Main.storyboard */,
+				FF448286212CF7490085ADED /* Assets.xcassets */,
+				FF448288212CF7490085ADED /* LaunchScreen.storyboard */,
+				FF44828B212CF7490085ADED /* Info.plist */,
+				FF44828C212CF7490085ADED /* main.m */,
+			);
+			path = SNSURLConnection;
+			sourceTree = "<group>";
+		};
+		FF448295212CF74A0085ADED /* SNSURLConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF448296212CF74A0085ADED /* SNSURLConnectionTests.m */,
+				FF448298212CF74A0085ADED /* Info.plist */,
+			);
+			path = SNSURLConnectionTests;
+			sourceTree = "<group>";
+		};
+		FF4482A0212CF74A0085ADED /* SNSURLConnectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4482A1212CF74A0085ADED /* SNSURLConnectionUITests.m */,
+				FF4482A3212CF74A0085ADED /* Info.plist */,
+			);
+			path = SNSURLConnectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF448279212CF7480085ADED /* SNSURLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4482A6212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnection" */;
+			buildPhases = (
+				FF448276212CF7480085ADED /* Sources */,
+				FF448277212CF7480085ADED /* Frameworks */,
+				FF448278212CF7480085ADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSURLConnection;
+			productName = SNSURLConnection;
+			productReference = FF44827A212CF7480085ADED /* SNSURLConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF448291212CF7490085ADED /* SNSURLConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4482A9212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnectionTests" */;
+			buildPhases = (
+				FF44828E212CF7490085ADED /* Sources */,
+				FF44828F212CF7490085ADED /* Frameworks */,
+				FF448290212CF7490085ADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF448294212CF7490085ADED /* PBXTargetDependency */,
+			);
+			name = SNSURLConnectionTests;
+			productName = SNSURLConnectionTests;
+			productReference = FF448292212CF7490085ADED /* SNSURLConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF44829C212CF74A0085ADED /* SNSURLConnectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4482AC212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnectionUITests" */;
+			buildPhases = (
+				FF448299212CF74A0085ADED /* Sources */,
+				FF44829A212CF74A0085ADED /* Frameworks */,
+				FF44829B212CF74A0085ADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF44829F212CF74A0085ADED /* PBXTargetDependency */,
+			);
+			name = SNSURLConnectionUITests;
+			productName = SNSURLConnectionUITests;
+			productReference = FF44829D212CF74A0085ADED /* SNSURLConnectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF448272212CF7480085ADED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李泽平";
+				TargetAttributes = {
+					FF448279212CF7480085ADED = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FF448291212CF7490085ADED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF448279212CF7480085ADED;
+					};
+					FF44829C212CF74A0085ADED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF448279212CF7480085ADED;
+					};
+				};
+			};
+			buildConfigurationList = FF448275212CF7480085ADED /* Build configuration list for PBXProject "SNSURLConnection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF448271212CF7480085ADED;
+			productRefGroup = FF44827B212CF7480085ADED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF448279212CF7480085ADED /* SNSURLConnection */,
+				FF448291212CF7490085ADED /* SNSURLConnectionTests */,
+				FF44829C212CF74A0085ADED /* SNSURLConnectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF448278212CF7480085ADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF44828A212CF7490085ADED /* LaunchScreen.storyboard in Resources */,
+				FF448287212CF7490085ADED /* Assets.xcassets in Resources */,
+				FF448285212CF7480085ADED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF448290212CF7490085ADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF44829B212CF74A0085ADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF448276212CF7480085ADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF448282212CF7480085ADED /* ViewController.m in Sources */,
+				FF44828D212CF7490085ADED /* main.m in Sources */,
+				FF44827F212CF7480085ADED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF44828E212CF7490085ADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF448297212CF74A0085ADED /* SNSURLConnectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF448299212CF74A0085ADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4482A2212CF74A0085ADED /* SNSURLConnectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF448294212CF7490085ADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF448279212CF7480085ADED /* SNSURLConnection */;
+			targetProxy = FF448293212CF7490085ADED /* PBXContainerItemProxy */;
+		};
+		FF44829F212CF74A0085ADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF448279212CF7480085ADED /* SNSURLConnection */;
+			targetProxy = FF44829E212CF74A0085ADED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF448283212CF7480085ADED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF448284212CF7480085ADED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF448288212CF7490085ADED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF448289212CF7490085ADED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4482A4212CF74A0085ADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4482A5212CF74A0085ADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4482A7212CF74A0085ADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4482A8212CF74A0085ADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF4482AA212CF74A0085ADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSURLConnection.app/SNSURLConnection";
+			};
+			name = Debug;
+		};
+		FF4482AB212CF74A0085ADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSURLConnection.app/SNSURLConnection";
+			};
+			name = Release;
+		};
+		FF4482AD212CF74A0085ADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNSURLConnection;
+			};
+			name = Debug;
+		};
+		FF4482AE212CF74A0085ADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNSURLConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VueDemol.SNSURLConnectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNSURLConnection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF448275212CF7480085ADED /* Build configuration list for PBXProject "SNSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4482A4212CF74A0085ADED /* Debug */,
+				FF4482A5212CF74A0085ADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4482A6212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4482A7212CF74A0085ADED /* Debug */,
+				FF4482A8212CF74A0085ADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4482A9212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4482AA212CF74A0085ADED /* Debug */,
+				FF4482AB212CF74A0085ADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4482AC212CF74A0085ADED /* Build configuration list for PBXNativeTarget "SNSURLConnectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4482AD212CF74A0085ADED /* Debug */,
+				FF4482AE212CF74A0085ADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF448272212CF7480085ADED /* Project object */;
+}
