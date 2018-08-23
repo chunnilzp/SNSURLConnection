@@ -58,16 +58,16 @@
     [self demo1];
 }
 
-//没有监听进度，不是实时写入的请求
-- (void)demo0{
-    NSString *str = @"https://music.163.com/api/osx/download/latest";
-    //    str = [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];   str中有中文时使用，需要转码，不然nsurl会为nil
-    
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:str]];
-    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
-        [data writeToFile:@"/Users/lizeping/Desktop/测试数据/aaa.wmv" atomically:YES];
-    }];
-}
+////没有监听进度，不是实时写入的请求
+//- (void)demo0{
+//    NSString *str = @"https://music.163.com/api/osx/download/latest";
+//    //    str = [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];   str中有中文时使用，需要转码，不然nsurl会为nil
+//    
+//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:str]];
+//    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+//        [data writeToFile:@"/Users/lizeping/Desktop/测试数据/aaa.wmv" atomically:YES];
+//    }];
+//}
 
 
 //有监听进度，实时写入的请求
